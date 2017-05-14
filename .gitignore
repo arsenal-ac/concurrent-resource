@@ -1,3 +1,6 @@
 .gitignore
 .idea/
 out/
+src/main/com/yqc/beforePractice/thinkinjava/beforePractice/
+src/resource/
+.settings

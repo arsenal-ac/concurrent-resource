@@ -1,11 +1,12 @@
 package com.yqc.beforePractice.test2.lockTest;
 
+import com.yqc.beforePractice.test2.getResource.EventChecker;
+import com.yqc.beforePractice.test2.getResource.IntGenerator;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.yqc.getResource.EventChecker;
-import com.yqc.getResource.IntGenerator;
 
-public class AtomicEvenGenerator extends IntGenerator{
+public class AtomicEvenGenerator extends IntGenerator {
 
 	private AtomicInteger currentEvenValue=new AtomicInteger(0);
 	@Override

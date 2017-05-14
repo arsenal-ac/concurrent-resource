@@ -2,7 +2,6 @@ package com.yqc.beforePractice.test2.executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import com.yqc.beforePractice.test2.LiftOff;
 import com.yqc.basic.execute.executor.LiftOff;
 
 public class SingleThreadExecutor {

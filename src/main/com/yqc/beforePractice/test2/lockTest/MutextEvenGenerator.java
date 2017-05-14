@@ -1,10 +1,12 @@
 package com.yqc.beforePractice.test2.lockTest;
 
+
+import com.yqc.beforePractice.test2.getResource.EventChecker;
+import com.yqc.beforePractice.test2.getResource.IntGenerator;
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import com.yqc.getResource.EventChecker;
-import com.yqc.getResource.IntGenerator;
 
 public class MutextEvenGenerator extends IntGenerator {
 	private int currentEvenValue = 0;
